@@ -5,51 +5,72 @@
     <meta name="keywords" content="HTML,CSS,JAVASCRIPT">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="CSS.css">
-    <link rel="steelshet" href="JS.js">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grooming</title> 
+    <title>Grooming</title>
 </head>
 
-<body>
+<body class="grid-container">
+  
 
-    <!--BOTONES ARRIBA-->
-<header class="header">
-    <div class="contenedor">
-        <a id="link" href="index.html">Inicio</a> 
-    <br>    
-        <a id="link" href="quehacer.html">¿Que Hacer?</a> 
-    <br>
-        <a id="link" href="datos.html">Datos</a>
-    <br>
-        <a id="link" href="+info.html">+ Info</a>
-    <br>
-        <a id="link" href="nosotros.html">Nosotros</a>
-</div>
-</header>
+  <!--BARRA DE NAVEGACIÓN-->
+  <header class="header">
+    <nav>
 
-     <!-- FONDO -->
-     <style>
-        body {
-            background: linear-gradient(90deg, rgba(58,67,180,1) 0%, rgba(29,225,253,1) 50%, rgba(252,69,220,1) 100%);
-}
-    </style>
+      <input type="checkbox" id="ckbox">
+      <label for="ckbox" class="drawer">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+      </label>
 
-<!-- INFO -->
-<div id="fondotexto" class="contenedor">
+      <h1>Grooming</h1>
+
+      <ul class="menu-box">
+
+          <div class="drop-down-menu">
+              <a href="index.html" class="drop-down-button" id="botones">Inicio</a>
+          </div>
+
+          <div class="drop-down-menu" id="botones">
+            <a href="+info.html" class="drop-down-button">+ Info</a>
+          </div>
+
+          <div class="drop-down-menu" id="botones">
+            <a href="quehacer.html" class="drop-down-button">¿Que Hacer?</a>
+          </div>
+
+          <div class="drop-down-menu" id="botones">
+            <a href="noticias.html" class="drop-down-button">Noticias</a>
+          </div>
+
+          <div class="drop-down-menu" id="botones">
+            <a href="datos.html" class="drop-down-button">Datos</a>
+          </div>
+
+          <div class="drop-down-menu" id="botones">
+            <a href="nosotros.html" class="drop-down-button">Nosotros</a>
+          </div>
+      </ul>
+
+  </nav>
+  </header>
+
+  
+  
+ <!--CONTENIDO--> 
+  
+ <article class="main">
+ <div id="fondotexto" class="contenedor">
     <h1>¿Quienes Somos?</h1>
     <p>¡Hola! Nosotros somos estudiantes del Instituto Parroquiál D-133 "María Auxiliadora", y durante el año 2022 tuvimos que trabajar sobre un tema de nuestro interés y que, relacionado con nustros estudios futuros lo podamos relacionár.
         Por eso, junto a nuestra profesora Marcela Della Cecca en la materia "Investigación", decidimos investigar a profundidad sobre un tema que renombra cada vez más seguido en nuestro día a día, el Grooming. </p>
 </div>
-    
+
+</article>
+
+
+
 <footer class="footer">FOOTER</footer>
 
 
-
-
-
-</body>
-</html>
-
-
+ </body>
     
      
